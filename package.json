@@ -1,7 +1,7 @@
 {
-  "name": "hubble project",
+  "name": "elearning project",
   "version": "1.0.0",
-  "description": "Huddle landing page",
+  "description": "elearning landing page",
   "main": "index.js",
   "scripts": {
     "compile:sass": "node-sass sass/main.scss css/style.css -w"
