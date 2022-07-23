@@ -58,13 +58,13 @@ body {
     width: 991.63px;
     height: 936.92px;
     position: absolute;
-    background-image: url(./assets/image-hero-desktop.webp);
+    background-image: url("./assets/image-hero-desktop.webp");
     top: -170px;
     left: 769px;
   
     @media (min-width : $bp-tablet) and (max-width : $bp-desktop) {        
         z-index: -1;
-        background-image: url(./assets/image-hero-tablet.webp);
+        background-image: url("./assets/image-hero-tablet.webp");
         width: 720px;
         height: 720px;
         left: 380px;
@@ -73,7 +73,7 @@ body {
 
     @media (min-width : $bp-mobile) and (max-width : $bp-tablet) {        
         z-index: -1;
-        background-image: url(./assets/image-hero-mobile.webp);
+        background-image: url("./assets/image-hero-mobile.webp");
         background-repeat: no-repeat;
         width: 720px;
         height: 720px;
@@ -484,7 +484,7 @@ body {
                 height: 56px;
                 border: 50%;
                 background: linear-gradient( rgb(255,111,72), rgb(240,42,166));
-                background-image: url(./assets/icon-design.svg);
+                background-image: url("./assets/icon-design.svg");
 
                 @media (min-width : $bp-tablet) and (max-width : $bp-desktop  ) {        
                     margin-top: -50px
@@ -562,7 +562,7 @@ body {
                 height: 56px;
                 border: 50%;
                 background: linear-gradient( rgb(255,111,72), rgb(240,42,166));
-                background-image: url(.webp/assets/icon-photography.svg);
+                background-image: url(".webp/assets/icon-photography.svg");
 
                 @media (min-width : $bp-tablet) and (max-width : $bp-desktop  ) {        
                     margin-top: -50px
@@ -642,7 +642,7 @@ body {
                 height: 56px;
                 border: 50%;
                 background: linear-gradient( rgb(255,111,72), rgb(240,42,166));
-                background-image: url(./assets/icon-crypto.svg);
+                background-image: url("./assets/icon-crypto.svg");
 
                 @media (min-width : $bp-tablet) and (max-width : $bp-desktop  ) {        
                     margin-top: -50px
@@ -719,7 +719,7 @@ body {
                 height: 56px; 
                 border: 50%;
                 background: linear-gradient( rgb(255,111,72), rgb(240,42,166));
-                background-image: url(./assets/icon-business.svg);
+                background-image: url("./assets/icon-business.svg");
 
                 @media (min-width : $bp-tablet) and (max-width : $bp-desktop  ) {        
                     margin-top: -50px
